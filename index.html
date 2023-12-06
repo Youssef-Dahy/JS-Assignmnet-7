@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Input Example</title>
+  </head>
+  <body>
+    <!-- Start of Question one  -->
+    <h1>Enter a Number:</h1>
+    <input type="number" id="userInput" placeholder="Enter a number" />
+    <button onclick="printNumber()">Print Number</button>
+    <div id="output"></div>
+    <!-- End of Question one  -->
+
+    <!-- Start of Question two  -->
+    <h2>Enter a Number</h2>
+    <input type="number" id="InputDivide" placeholder="Enter a number" />
+    <button onclick="DivideNumber()">Check Divisibility</button>
+    <div id="outputDivide"></div>
+    <!-- End of Question two  -->
+
+    <!-- Start of Question three  -->
+    <h3>Enter Two Integers:</h3>
+    <label for="number1">Number 1:</label>
+    <input type="number" id="number1" placeholder="Enter the first integer" />
+    <label for="number2">Number 2:</label>
+    <input type="number" id="number2" placeholder="Enter the second integer" />
+    <button onclick="findMax()">Find Maximum</button>
+    <div id="outPutMax"></div>
+    <!-- End of Question three  -->
+
+    <!-- Start of Question four  -->
+    <h3>Enter an Integer:</h3>
+    <input
+      type="number"
+      id="userInputPositive"
+      placeholder="Enter an integer"
+    />
+    <button onclick="checkPositiveNegative()">Check</button>
+    <div id="outPutPositiveNegative"></div>
+    <!-- End of Question four  -->
+
+    <!-- Start of Question Five  -->
+    <h3>Enter Three Integers:</h3>
+    <label for="number1">Number 1:</label>
+    <input type="number" id="element1" placeholder="Enter the first integer" />
+    <label for="number2">Number 2:</label>
+    <input type="number" id="element2" placeholder="Enter the second integer" />
+    <label for="number3">Number 3:</label>
+    <input type="number" id="element3" placeholder="Enter the third integer" />
+    <button onclick="findMaxMin()">Find Max and Min</button>
+    <div id="outPutMinMax"></div>
+    <!-- End of Question Five  -->
+
+    <!-- Start of Question Six  -->
+    <h3>Enter an Integer:</h3>
+    <input type="number" id="evenOddInput" placeholder="Enter an integer" />
+    <button onclick="checkEvenOdd()">Check</button>
+    <div id="outputEvenOdd"></div>
+    <!-- End of Question Six  -->
+
+    <!-- Start of Question Seven  -->
+    <h3>Enter a Character:</h3>
+    <input type="text" id="userInputVowel" placeholder="Enter a character" />
+    <button onclick="checkVowelConsonant()">Check</button>
+    <div id="outputVowel"></div>
+    <!-- End of Question Seven  -->
+
+    <!-- Start of Question eight  -->
+    <h3>Enter an Integer:</h3>
+    <input
+      type="number"
+      id="userInputPrintNumbers"
+      placeholder="Enter an integer"
+    />
+    <button onclick="printNumbers()">Print Numbers</button>
+    <div id="outputPrintNumbers"></div>
+    <!-- End of Question eight  -->
+
+    <!-- Start of Question Nine  -->
+    <h3>Enter an Integer:</h3>
+    <input
+      type="number"
+      id="userInputMultiplication"
+      placeholder="Enter an integer"
+    />
+    <button onclick="printMultiplicationTable()">
+      Print Multiplication Table
+    </button>
+    <div id="outPutMultiplication"></div>
+    <!-- End of Question Nine  -->
+
+    <!-- Start of Question Ten  -->
+    <h3>Enter an Integer:</h3>
+    <input
+      type="number"
+      id="userInputEvenNumbers"
+      placeholder="Enter an integer"
+    />
+    <button onclick="printEvenNumbers()">Print Even Numbers</button>
+    <div id="outPutEvenNumbers"></div>
+
+    <!-- End of Question Ten  -->
+
+    <!-- Start of Question eleven  -->
+    <h3>Enter Two Integers:</h3>
+    <label for="baseInput">Base:</label>
+    <input type="number" id="baseInput" placeholder="Enter the base" />
+    <label for="exponentInput">Exponent:</label>
+    <input type="number" id="exponentInput" placeholder="Enter the exponent" />
+    <button onclick="calculatePower()">Calculate Power</button>
+    <div id="outputPower"></div>
+    <!-- End of Question eleven  -->
+
+    <!-- Start of Question twelve  -->
+    <h3>Enter Marks of Five Subjects:</h3>
+    <label for="marks1">Subject 1:</label>
+    <input type="number" id="marks1" placeholder="Enter marks for subject 1" />
+    <label for="marks2">Subject 2:</label>
+    <input type="number" id="marks2" placeholder="Enter marks for subject 2" />
+    <label for="marks3">Subject 3:</label>
+    <input type="number" id="marks3" placeholder="Enter marks for subject 3" />
+    <label for="marks4">Subject 4:</label>
+    <input type="number" id="marks4" placeholder="Enter marks for subject 4" />
+    <label for="marks5">Subject 5:</label>
+    <input type="number" id="marks5" placeholder="Enter marks for subject 5" />
+    <button onclick="calculateMarks()">Calculate</button>
+    <div id="outPutMarks"></div>
+    <!-- End of Question twelve  -->
+
+    <!-- Start of Question thirteen  -->
+    <h3>Enter Month Number:</h3>
+    <input type="number" id="monthNumber" placeholder="Enter month number" />
+    <button onclick="calculateDaysInMonth()">Calculate Days</button>
+    <div id="outPutMonthNumber"></div>
+    <!-- End of Question thirteen  -->
+
+    <!-- Start of Question fourteen  -->
+    <h3>Enter Marks for Five Subjects:</h3>
+    <label for="physicsMarks">Physics:</label>
+    <input
+      type="number"
+      id="physicsMarks"
+      placeholder="Enter marks for Physics"
+    />
+    <label for="chemistryMarks">Chemistry:</label>
+    <input
+      type="number"
+      id="chemistryMarks"
+      placeholder="Enter marks for Chemistry"
+    />
+    <label for="biologyMarks">Biology:</label>
+    <input
+      type="number"
+      id="biologyMarks"
+      placeholder="Enter marks for Biology"
+    />
+    <label for="mathematicsMarks">Mathematics:</label>
+    <input
+      type="number"
+      id="mathematicsMarks"
+      placeholder="Enter marks for Mathematics"
+    />
+    <label for="computerMarks">Computer:</label>
+    <input
+      type="number"
+      id="computerMarks"
+      placeholder="Enter marks for Computer"
+    />
+    <button onclick="calculatePercentageAndGrade()">Calculate</button>
+    <div id="outPutGrade"></div>
+    <!-- End of Question fourteen  -->
+
+    <!-- Start of Question fifteen  -->
+    <h3>Enter Month Number:</h3>
+    <input
+      type="number"
+      id="monthNumberWithSwitch"
+      placeholder="Enter month number"
+    />
+    <button onclick="calculateDaysInMonthWithSwitch()">Calculate Days</button>
+    <div id="outputNumberWithSwitch"></div>
+    <!-- End of Question fifteen  -->
+
+    <!-- Start of Question sixteen  -->
+    <h3>Enter an Alphabet:</h3>
+    <input type="text" id="alphabet" placeholder="Enter an alphabet" />
+    <button onclick="checkVowelConsonantSwitch()">Check</button>
+    <div id="outPutVowelConsonantSwitch"></div>
+    <!-- End of Question sixteen  -->
+
+    <!-- Start of Question seventeen  -->
+    <h3>Enter Two Numbers:</h3>
+    <label for="number1Switch">Number 1:</label>
+    <input
+      type="number"
+      id="number1Switch"
+      placeholder="Enter the first number"
+    />
+    <label for="number2Switch">Number 2:</label>
+    <input
+      type="number"
+      id="number2Switch"
+      placeholder="Enter the second number"
+    />
+    <button onclick="findMaxSwitch()">Find Maximum</button>
+    <div id="outPutMaxSwitch"></div>
+    <!-- End of Question seventeen  -->
+
+    <!-- Start of Question eighteen  -->
+    <h3>Enter a Number:</h3>
+    <input type="number" id="numberEvenSwitch" placeholder="Enter a number" />
+    <button onclick="checkEvenOddSwitch()">Check</button>
+    <div id="outPutEvenOddSwitch"></div>
+    <!-- End of Question eighteen  -->
+
+    <!-- Start of Question Nineteen  -->
+    <h3>Enter a Number:</h3>
+    <input
+      type="number"
+      id="numberPostiveSwitch"
+      placeholder="Enter a number"
+    />
+    <button onclick="checkNumberPositiveNegative()">Check</button>
+
+    <div id="outputPostiveSwitch"></div>
+    <!-- End of Question Nineteen  -->
+
+    <!-- Start of Question twenty  -->
+    <h3>Simple Calculator</h3>
+    <label for="num1">Number 1:</label>
+    <input type="number" id="num1" placeholder="Enter number" />
+
+    <label for="operation">Operation:</label>
+    <select id="operation">
+      <option value="addition">+</option>
+      <option value="subtraction">-</option>
+      <option value="multiplication">*</option>
+      <option value="division">/</option>
+    </select>
+
+    <label for="num2">Number 2:</label>
+    <input type="number" id="num2" placeholder="Enter number" />
+
+    <button onclick="calculatorSwitch()">Calculate</button>
+
+    <div id="outputCalculatorSwitch"></div>
+    <!-- End of Question twenty  -->
+    <script src="JS/main.js"></script>
+  </body>
+</html>
